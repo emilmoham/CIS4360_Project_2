@@ -2,3 +2,5 @@ call_shellcode
 badfile
 exploit
 stack
+stack_task3
+stack_task4
