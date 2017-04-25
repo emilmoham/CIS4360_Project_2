@@ -1,0 +1,8 @@
+Attempting to run the vulnerable stack program, stack_task3, which has been compiled with the proper stack protections yields the following message:
+
+=======================================================
+*** stask smashing detected ***: stack_task3 terminated
+segmentation fault (core dumped)
+=======================================================
+
+With the stack protections linux has determined that there has been a buffer overflow and that someone has input information into the vulnerable buffer to try and overwrite EIP.
